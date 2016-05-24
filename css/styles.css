@@ -10,7 +10,14 @@ IMPORTS
 YOUR STYLES
 *******************/
 
+.lg-backdrop {
+background-color: antiquewhite;
+}
 
+.lg-image {
+border-radius: 10px;
+    box-shadow: 0 0 20px white;
+}
 
 
 /********************
@@ -18,16 +25,16 @@ MEDIA QUERIES
 *******************/
 
 /* Desktop */
-@media (min-width: 1200px) {
+@media (min-width: 75em) {
 
 }
 
 /* Tablet */
-@media (min-width: 768px) {
+@media (min-width: 48em) {
 
 }
 
 /* Mobile */
-@media (min-width: 480px) {
+@media (min-width: 30em) {
 
 }
